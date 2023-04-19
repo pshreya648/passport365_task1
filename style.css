@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* body {
+    background-image: url("images/ripples-body.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.hide {
+    display: none;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.maintenance-text h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(115, 110, 110);
+    text-shadow: 1px 1px 2px rgb(116, 111, 111), 0 0 5px rgb(24, 243, 225);
+}
+
+.maintenance-text hr {
+    border: none;
+    height: 10px;
+    background-color: rgb(24, 243, 225)
+}
+
+.table1 table,
+th,
+td {
+    border-collapse: collapse;
+    margin: 0px auto;
+    padding: 10px 2px;
+    margin-top: 50px;
+    border-radius: 2px;
+
+}
+
+.table1 table,
+th {
+    width: 35%;
+    font-size: 18px;
+}
+
+.table1 tbody tr:nth-child(even) {
+    background: #ebebef;
+}
+
+.section-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section-2 img {
+    margin-top: 30px;
+}
+
+.section-2 h4 {
+    margin-top: 50px;
+    color: rgb(115, 110, 110);
+
+}
+
+.table-3 {
+    margin-top: 50px;
+
+}
+
+thead {
+    background: #029b0a;
+    color: #fff;
+    text-align: center;
+}
+
+.table-body tr,
+th,
+td {
+    padding: 20px;
+    border-collapse: collapse;
+    border: 1px rgb(82, 79, 79);
+    box-shadow: 1px 1px 3px 0 rgba(207, 202, 202, 0.3);
+}
+
+.table-3 tbody tr:nth-child(even) {
+    background: #ebebef;
+}
+
+/* footer section */
+
+.footer-text hr {
+    border: none;
+    height: 10px;
+    background-color: rgb(24, 243, 225)
+}
+
+.footer-text p {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.footer-images .img-2 {
+    margin-top: 50px;
+}
+
+.footer-images .img-3 {
+    margin-top: 50px;
+}
